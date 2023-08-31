@@ -1,0 +1,391 @@
+* { font-family: "맑은 고딕"; margin:0; padding:0; box-sizing:border-box;}
+body { width:100%; height:100%; margin:0; padding:0;border:0; letter-spacing:0; background:#fff;}
+li { list-style:none; text-decoration:none;}
+a {  text-decoration:none; list-style:none; color:#000;}
+img { border:none; display:block;}
+table { border-spacing:0; border-collapse:collapse;}
+
+.detail_title{
+	float: left; 
+	width: 100%; 
+	padding: 5%; 
+	font-size: 25px; 
+	font-weight: bold; 
+	font-family: NotoSansCJKkr;
+	color: #34cea1;
+}
+
+/* 주소 정보 */
+.detail_adress_top{
+	float: left;
+	width: 100%;
+	padding: 5%;
+	margin-top: -20px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: NotoSansCJKkr;
+	color: #707070;
+}
+
+/* 출발지 */
+.detail_adress_start_title{
+	float: left;
+	width: 100%;
+	padding: 5%;
+	margin-top: -26px;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: NotoSansCJKkr;
+	color: #939393;
+}
+
+.detail_adress_start_wrap{
+	width: 90%;
+	height: 50px;
+	box-shadow: 0 0 5px 0 rgba(121, 121, 121, 0.16);
+	background-color: #fff;
+	overflow: auto;
+	margin-left: 5%;
+	margin-top: 3%;
+}
+
+.detail_adress_start_letter{
+	font-size: 18px;
+	color: #707070;
+	font-family: NotoSansCJKkr;
+	padding-top: 13px;
+	padding-left: 13px;
+	padding-bottom: 15px;
+}
+
+/* 도착지 */
+.detail_adress_arrive_title{
+	float: left;
+	width: 100%;
+	padding: 5%;
+	margin-top: 4px;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: NotoSansCJKkr;
+	color: #939393;
+}
+
+.detail_adress_arrive_wrap{
+	width: 90%;
+	height: 50px;
+	box-shadow: 0 0 5px 0 rgba(121, 121, 121, 0.16);
+	background-color: #fff;
+	overflow: auto;
+	margin-left: 5%;
+	margin-top: 3%;
+}
+
+.detail_adress_arrive_letter{
+	font-size: 18px;
+	color: #707070;
+	font-family: NotoSansCJKkr;
+	padding-top: 13px;
+	padding-left: 13px;
+	padding-bottom: 15px;
+}
+
+.detail_adress_border{
+	width: 100%;
+	height: 1px;
+	margin-top: 7%;
+	background: #d6d6d6;
+}
+
+/* 주문 정보 */
+.detail_order_top{
+	float: left;
+	width: 100%;
+	padding: 5%;
+	margin-top: 16px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: NotoSansCJKkr;
+	color: #707070;
+}
+
+/* 주문 번호: */
+.detail_order_letter_1{
+  width: 80px;
+  height: 24px;
+  padding-left: 5%;
+  margin-top: 20%;
+  font-family: NotoSansCJKkr;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #707070;
+}
+
+/* 549104*/
+.detail_order_letter_2{
+  width: 232px;
+  height: 24px;
+  margin-left: -15px;
+  margin-top: -24px;
+  font-family: NotoSansCJKkr;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #707070;
+}
+
+/* 주문 정보: */
+.detail_order_letter_3{
+  width: 80px;
+  height: 24px;
+  padding-left: 5%;
+  margin-top: -6px;
+  font-family: NotoSansCJKkr;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #707070;
+}
+
+/* 음식*/
+.detail_order_letter_4{
+  width: 232px;
+  height: 24px;
+  margin-left: -25px;
+  margin-top: -24px;
+  font-family: NotoSansCJKkr;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #707070;
+}
+
+/*출발 예정 시간: */
+.detail_order_letter_5{
+  width: 106px;
+  height: 24px;
+  padding-left: 5%;
+  margin-top: -6px;
+  font-family: NotoSansCJKkr;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #707070;
+}
+
+/* 11시 39분*/
+.detail_order_letter_6{
+  width: 232px;
+  height: 24px;
+  margin-left: 13px;
+  margin-top: -24px;
+  font-family: NotoSansCJKkr;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #707070;
+}
+
+/*상태: */
+.detail_order_letter_7{
+ width: 53px;
+  height: 24px;
+  padding-left: 5%;
+  margin-top: -6px;
+  font-family: NotoSansCJKkr;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #707070;
+}
+
+/* 배달 중*/
+.detail_order_letter_8{
+  width: 50px;
+  height: 24px;
+  margin-left: 47px;
+  margin-top: -24px;
+  font-family: NotoSansCJKkr;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #707070;
+}
+
+/* 금액: */
+.detail_order_letter_9{
+   width: 53px;
+  height: 24px;
+  padding-left: 5%;
+  margin-top: -6px;
+  font-family: NotoSansCJKkr;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #707070;
+}
+
+/*2500원*/
+.detail_order_letter_10{
+width: 50px;
+  height: 24px;
+  margin-left: 47px;
+  margin-top: -24px;
+  font-family: NotoSansCJKkr;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #707070;
+}
+
+/* 요청 사항: */
+.detail_order_letter_11{
+ width: 100px;
+  height: 24px;
+  padding-left: -10px;
+  margin-top: -6px;
+  font-family: NotoSansCJKkr;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #707070;
+}
+
+/* 빠르고, 신속하게 와주세요*/
+.detail_order_letter_12{
+width: 217px;
+  height: 24px;
+  padding-left: 76px;
+  margin-top: -24px;
+  font-family: NotoSansCJKkr;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #34cea1;
+}
+
+.detail_order_border{
+	width: 100%;
+	height: 1px;
+	margin-top: 7%;
+	background: #d6d6d6;
+}
+
+/* 주문자에게 연락하기 */
+.detail_contact_btn{
+	width: 90%;
+	height: 43px;
+	margin-top: 13px;
+	margin-left: 5%;
+	border: none;
+	padding: 15px;
+	color: #fff;
+	background: #34cea1;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px rgba(121, 121, 121, 0.161);
+}
+
+/* 상태 변경하기 */
+.detail_change_btn{
+	width: 90%;
+	height: 43px;
+	margin-top: 7px;
+	margin-left: 5%;
+	border: none;
+	padding: 15px;
+	color: #fff;
+	background: #34cea1;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px rgba(121, 121, 121, 0.161);
+
+}
+
+/* 경로. 확인하기 */
+.detail_path_btn{
+	width: 90%;
+	height: 43px;
+	margin-top: 7px;
+	margin-left: 5%;
+	border: none;
+	padding: 15px;
+	color: #fff;
+	background: #34cea1;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px rgba(121, 121, 121, 0.161);
+
+}
+
+/* 픽업 취소 요청하기 */
+.detail_plz_btn{
+	width: 90%;
+	height: 43px;
+	margin-top: 7px;
+	margin-left: 5%;
+	border: none;
+	padding: 15px;
+	color: #fff;
+	background: #34cea1;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px rgba(121, 121, 121, 0.161);
+
+}
